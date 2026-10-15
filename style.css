@@ -11,7 +11,7 @@ body{
 .navbar{
     display: flex;
     justify-content: space-between;
-    background-color: #37079e;
+    background-color: #1d0f52;
     padding: 1em;
     text-align: center;
 }
@@ -54,11 +54,12 @@ body{
     color: rgb(222, 153, 62);
     /* color: #d62828; */
 }
+
 .login{
     border: 1px solid orange;
     padding: 4px 10px;
     margin-left: 20px;
-    background-color: orangered;
+    background-color: rgb(207, 11, 11);
 
 }
 
@@ -92,7 +93,7 @@ body{
     cursor: pointer;
 }
 
-/* Menu section  */
+/* Menu section Styles */
 .menu-section{
     padding: 60px 20px;
     /* background-color: #f3f0f0;
@@ -202,6 +203,16 @@ body{
     font-weight: bold;
     color: #333;
 }
+
+.add-to-cart-btn .cta-button {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    border: none;
+    padding: 1em 2em;
+    font-size: 1em;
+    cursor: pointer;
+  }
 
 /* Footer section style  */
 

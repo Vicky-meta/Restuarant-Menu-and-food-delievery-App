@@ -1,3 +1,65 @@
+/* Navbar  */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1d0f52;
+    padding: 1em;
+    text-align: center;
+}
+
+.navbar .logo{
+    margin-right: 1em;
+}
+
+.navbar .logo img{
+    object-fit: cover;
+    width: 100px;
+    height: 50px;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.nav-links li{
+    margin-right: 20px;
+}
+
+.nav-links a{
+    color: #fff;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.nav-links a:hover{
+    color: rgb(222, 153, 62);
+    /* color: #d62828; */
+}
+
+.login{
+    border: 1px solid orange;
+    padding: 4px 10px;
+    margin-left: 20px;
+    background-color: rgb(207, 11, 11);
+
+}
+
+.login a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Mebu styling  */
 .menu-heading{
     position: relative;
     height: 400px;
@@ -309,4 +371,121 @@
 }
 .comparison-table td button.cta-btn:hover{
    background-color: #e55a4f;
+}
+
+/* Footer Section styling  */
+.footer {
+   background-color: #410560; /* Dark background for contrast */
+   color: #f1f1f1; /* Light text for readability */
+   padding: 40px 20px 20px 20px; /* Top padding increased for spacing */
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-content {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   max-width: 1200px; /* Max width for large screens */
+   margin: 0 auto;
+}
+
+.footer-section {
+   flex: 1 1 250px; /* Flex-grow, flex-shrink, flex-basis */
+   margin: 20px 10px;
+}
+
+.footer-logo {
+   max-width: 100%;
+   height: auto;
+   align-self: center;
+}
+
+.footer-section h3 {
+   font-size: 1.5rem;
+   margin-bottom: 15px;
+   color: #e63946; /* Accent color */
+}
+
+.footer-links {
+   list-style: none;
+   padding: 0;
+}
+.footer-links li {
+   margin-bottom: 10px;
+}
+
+.footer-links li a {
+   text-decoration: none;
+   color: #f1f1f1;
+   transition: color 0.3s;
+}
+.footer-links li a:hover {
+   color: #e63946;
+}
+
+.footer-links li a {
+   text-decoration: none;
+   color: #f1f1f1;
+   transition: color 0.3s;
+}
+
+.footer-links li a:hover {
+   color: #e63946;
+}
+
+.social-link {
+   color: #f1f1f1;
+   text-decoration: none;
+   transition: color 0.3s;
+}
+
+.social-link:hover {
+   color: #6E2352;
+}
+
+.subscribe-form {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+
+.subscribe-form input[type="email"] {
+   flex: 1 1 200px;
+   padding: 10px;
+   border: none;
+   border-radius: 4px;
+}
+
+.subscribe-form button {
+   padding: 10px 20px;
+   border: none;
+   background-color: #e63946;
+   color: #fff;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+.subscribe-form button:hover {
+   background-color: #d62828;
+}
+.footer-bottom {
+   text-align: center;
+   margin-top: 30px;
+   border-top: 1px solid #555;
+   padding-top: 20px;
+}
+
+.footer-bottom p {
+   margin: 0;
+   font-size: 0.9rem;
+}
+.footer-bottom a {
+   color: #f1f1f1;
+   text-decoration: none;
+   transition: color 0.3s;
+}
+
+.footer-bottom a:hover {
+   color: #e63946;
 }
